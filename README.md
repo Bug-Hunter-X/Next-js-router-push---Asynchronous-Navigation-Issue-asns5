@@ -1,0 +1,2 @@
+# Next.js router.push() Asynchronous Navigation
+This example demonstrates a common issue encountered when using the `router.push` method in Next.js. Because `router.push` is asynchronous, any code following it might execute before the navigation actually completes, leading to unexpected results.
